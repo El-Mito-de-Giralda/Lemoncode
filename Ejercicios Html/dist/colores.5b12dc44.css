@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.container-1 {
+  background-color: bisque;
+  border-radius: 5px;
+  height: 100vh;
+  display: flex;
+}
+
+.container-1 .oscuro4 .red {
+  background-color: #900;
+}
+
+.container-1 .oscuro4 .blue {
+  background-color: #009;
+}
+
+.container-1 .oscuro4 .green {
+  background-color: #001a00;
+}
+
+.container-1 .oscuro3 .red {
+  background-color: #b30000;
+}
+
+.container-1 .oscuro3 .blue {
+  background-color: #0000b3;
+}
+
+.container-1 .oscuro3 .green {
+  background-color: #003400;
+}
+
+.container-1 .oscuro2 .green {
+  background-color: #004d00;
+}
+
+.container-1 .oscuro2 .red {
+  background-color: #c00;
+}
+
+.container-1 .oscuro2 .blue {
+  background-color: #00c;
+}
+
+.container-1 .oscuro1 .red {
+  background-color: #e60000;
+}
+
+.container-1 .oscuro1 .blue {
+  background-color: #0000e6;
+}
+
+.container-1 .oscuro1 .green {
+  background-color: #006700;
+}
+
+.container-1 .colorbase .red {
+  background-color: red;
+}
+
+.container-1 .colorbase .blue {
+  background-color: #00f;
+}
+
+.container-1 .colorbase .green {
+  background-color: green;
+}
+
+.container-1 .claro1 .red {
+  background-color: #ff1a1a;
+}
+
+.container-1 .claro1 .blue {
+  background-color: #1a1aff;
+}
+
+.container-1 .claro1 .green {
+  background-color: #009a00;
+}
+
+.container-1 .claro2 .red {
+  background-color: #f33;
+}
+
+.container-1 .claro2 .blue {
+  background-color: #33f;
+}
+
+.container-1 .claro2 .green {
+  background-color: #00b300;
+}
+
+.container-1 .claro3 .red {
+  background-color: #ff4d4d;
+}
+
+.container-1 .claro3 .blue {
+  background-color: #4d4dff;
+}
+
+.container-1 .claro3 .green {
+  background-color: #00cd00;
+}
+
+.container-1 .claro4 .red {
+  background-color: #f66;
+}
+
+.container-1 .claro4 .blue {
+  background-color: #66f;
+}
+
+.container-1 .claro4 .green {
+  background-color: #00e600;
+}
+
+.red, .blue, .green {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+/*# sourceMappingURL=colores.5b12dc44.css.map */

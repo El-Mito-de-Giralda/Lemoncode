@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f0f8ff;
+}
+
+header {
+  height: 150px;
+  margin: 10%;
+}
+
+header img {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+header a {
+  color: #000;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin: 10%;
+  display: flex;
+}
+
+header p {
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 45px;
+  position: relative;
+}
+
+.panel {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: Dancing Script;
+  font-size: large;
+}
+
+iframe {
+  width: 100%;
+  height: 80vh;
+}
+
+.panel2 {
+  text-align: justify;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  display: flex;
+}
+
+footer, footer p {
+  align-content: end;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  display: flex;
+}
+
+.obra {
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+.text {
+  width: 100%;
+  height: 80vh;
+}
+
+.oeuvre {
+  vertical-align: top;
+  width: 90%;
+  height: 79vh;
+  position: relative;
+}
+
+.flechas {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.flechas div {
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+  width: 100px;
+  height: 66px;
+  margin: 20px;
+  padding: 0%;
+  font-family: Dancing Script;
+}
+
+.flechas div img {
+  width: 150px;
+  height: 100px;
+  position: relative;
+}
+
+.flechas div p {
+  position: absolute;
+}
+
+.flechas h2 {
+  width: 100%;
+}
+
+.direccion {
+  width: 100px;
+  height: 50px;
+}
+
+flechas:hover {
+  cursor: pointer;
+}
+
+.flechas a img {
+  color: #000;
+  height: px;
+  margin: 0%;
+}
+
+a:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+@media only screen and (width >= 834px) {
+  header {
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    height: 35vh;
+    max-height: 450px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+    display: flex;
+  }
+
+  header a {
+    color: #000;
+    width: 600px;
+    height: 250px;
+    margin: 0%;
+  }
+
+  header img {
+    width: 600px;
+    height: 300px;
+  }
+
+  header p {
+    text-align: center;
+    width: 700px;
+    margin: 0%;
+    font-family: Dancing Script;
+    font-size: 90px;
+    position: relative;
+  }
+
+  .text {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .oeuvre {
+    vertical-align: top;
+    width: 60%;
+    height: 80vh;
+  }
+
+  .panel2 {
+    text-align: justify;
+    width: 100%;
+    height: 100%;
+    max-height: 1000px;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+
+  .flechas div {
+    width: 150px;
+    height: 100px;
+  }
+}
+
+@media only screen and (width >= 971px) {
+  .panel2 p {
+    text-align: center;
+  }
+
+  .oeuvre {
+    vertical-align: top;
+    width: 60%;
+    height: 80vh;
+  }
+}
+
+@media only screen and (width >= 1400px) {
+  .text {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .oeuvre {
+    vertical-align: top;
+    width: 45%;
+    height: 100vh;
+  }
+
+  .panel2 {
+    padding-bottom: 0%;
+  }
+}
+/*# sourceMappingURL=Basico.a5c75101.css.map */

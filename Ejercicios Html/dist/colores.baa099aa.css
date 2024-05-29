@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+.container-1 {
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+}
+
+.base-color {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  padding: 50px;
+}
+
+/*# sourceMappingURL=colores.baa099aa.css.map */

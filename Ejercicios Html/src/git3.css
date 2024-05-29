@@ -1,0 +1,315 @@
+*{box-sizing: border-box;}
+
+#Tema1 {
+  width: 100px;
+  height: 500px;
+  float: left;
+}
+
+#Tema2 {
+  width: 100px;
+  height: 500px;
+  float: left;
+  margin-left: 50%;
+}
+
+.Izquierda {
+  height: 100px;
+  width: 100px;
+}
+
+.Derecha {
+  height: 100px;
+  width: 100px;
+}
+
+#Iz1 {
+  background-color: red;
+  border: solid black 1px;
+}
+
+#Iz2 {
+  background-color: brown;
+  border: solid black 1px;
+}
+
+#Iz3 {
+  background-color: pink;
+  border-radius: 3px;
+  border: solid black 1px;
+}
+
+#Iz4 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Iz4 p {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Shadow {
+  border: solid black 1px;
+  border-radius: 3px;
+box-shadow: -10px 10px 15px 0px;
+}
+
+#De1 {
+  background-color: blue;
+  border: solid black 1px;
+}
+
+#De2 {
+  background-color: darkblue;
+  border: solid black 1px;
+}
+
+#De3 {
+  background-color:aqua;
+  border-radius: 3px;
+  border: solid black 1px;
+}
+
+#De4 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#De4 P {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Shadow2 {
+  border: solid black 1px;
+  border-radius: 3px;
+box-shadow: 10px 10px 15px 0px;
+}
+
+html{
+background-color: aliceblue;}
+
+header{height: 150px;
+  margin: 10%;
+  }
+
+  header img{
+    height: 150px;
+    width: 300px;
+    position:absolute;}
+   
+  
+    a:link {
+      text-decoration: none;
+  
+    }
+  
+    a:visited {
+  text-decoration: none;
+    }
+  
+   header a{
+      color: black;
+      height: 150px;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  header p{
+    font-size: 45px;
+    font-family: 'Dancing Script'; 
+  text-align: center;
+  position: relative;}
+
+
+.panel { 
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+  font-family: 'Dancing Script';}
+  
+
+iframe{
+    height: 80vh;
+    width: 100%;}
+
+.panel2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 5%;
+text-align: center;}
+
+  footer, footer p{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    display: flex;
+    align-content: end;
+  }
+
+  .obra {
+    width: 100%;
+    padding-bottom: 5%;
+
+  }
+
+  .text{  height: 80vh;
+    width: 100%;
+  
+  }
+
+  .oeuvre{
+    vertical-align: top;
+    height: 79vh;
+    width: 90%;
+    position: relative;
+  }
+
+  .flechas {
+    display: flex;
+    flex-wrap: wrap;}
+
+    .flechas div{
+        margin: 20px;
+        font-family: "Dancing Script";
+   
+        background-size: 150px 100px;
+        background-repeat: no-repeat;
+        height: 66px;
+    width: 100px;
+    padding: 0%;
+    }
+
+    .flechas div img{
+      height: 100px;
+      width: 150px;
+      position: relative;
+    }
+
+    .flechas div p{
+      position: absolute;
+    }
+
+    .flechas h2 {
+      width: 100%;
+    }
+
+  .direccion{
+    height: 50px;
+    width: 100px;
+  }
+
+  flechas:hover{
+    cursor:pointer;
+  }
+
+  .flechas a img{
+    color: black;
+    height: px;
+  margin: 0%;}
+
+  a:hover{
+    cursor:pointer;
+    opacity: 70%;
+  }
+
+
+  @media only screen and (min-width: 834px){
+    header{
+      height: 35vh;
+      max-height: 450px;
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-left: 0%;
+      margin-bottom: 5%;
+      margin-top: 5%;
+
+      }
+
+      header a{
+        color: black;
+        height: 250px;
+        width:600px;
+        margin: 0%;
+      }
+      
+      header img{
+        height: 300px;
+        width:600px;
+
+      }
+
+      header p{
+        font-size: 90px;
+        font-family: 'Dancing Script'; 
+      text-align:center;
+      position: relative;
+    margin:0%;
+    width:700px}
+      
+      
+        
+      .text{  height: 80vh;
+        width: 100%;
+       
+      }
+
+      .oeuvre{
+        vertical-align: top;
+        height: 80vh;
+        width: 60%;
+      }
+
+      .panel2 {
+       max-height:1000px ;
+        height: 100%;
+        width: 100%;
+        font-size: large;
+        text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 5%;}
+
+      .flechas div{
+        height: 100px;
+        width: 150px;
+  }  }
+
+  @media only screen and (min-width: 971px){
+    .panel2 p{
+      text-align:center;
+      }
+
+  
+  
+    .oeuvre{
+      vertical-align: top;
+      height: 80vh;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 1400px){
+    .text{  height: 100vh;
+      width: 100%;}
+  
+    .oeuvre{
+      vertical-align: top;
+      height: 100vh;
+      width: 45%;
+    }
+    .panel2 {
+    padding-bottom: 0%;}
+
+  }

@@ -1,0 +1,100 @@
+*{box-sizing: border-box;}
+
+$red : red;
+$blue : blue;
+$green : green;
+html{height: 100vh;}
+
+.container-1 {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    border-radius: 5px;
+
+    .oscuro4 .red {
+     background-color : darken($red, 20%);
+    }
+    .oscuro4 .blue {
+        background-color : darken($blue, 20%);
+       }
+       .oscuro4 .green {
+        background-color : darken($green, 20%);
+       }
+       .oscuro3 .red {
+        background-color : darken($red, 15%);
+       }
+       .oscuro3 .blue {
+           background-color : darken($blue, 15%);
+          }
+          .oscuro3 .green {
+            background-color : darken($green, 15%);
+           }
+          .oscuro2 .green {
+           background-color : darken($green, 10%);
+          }
+          .oscuro2 .red {
+            background-color : darken($red, 10%);
+           }
+           .oscuro2 .blue {
+               background-color : darken($blue, 10%);
+              }
+            
+              .oscuro1 .red {
+                background-color : darken($red, 5%);
+               }
+               .oscuro1 .blue {
+                   background-color : darken($blue, 5%);
+                  }
+                  .oscuro1 .green {
+                   background-color : darken($green, 5%);
+                  }
+        .colorbase .red {
+            background-color: red;
+        }
+        .colorbase .blue{
+            background-color: blue;
+        }
+        .colorbase .green{
+            background-color: green;
+        }
+        .claro1 .red {
+            background-color: lighten($red, $amount: 5%);}
+            .claro1 .blue{
+                background-color: lighten($blue, $amount: 5%);
+            }
+            .claro1 .green{
+                background-color: lighten($green, $amount: 5%);
+            }
+     .claro2 .red {
+            background-color: lighten($red, $amount: 10%);}
+            .claro2 .blue{
+                background-color: lighten($blue, $amount: 10%);
+            }
+            .claro2 .green{
+                background-color: lighten($green, $amount: 10%);
+            }
+            .claro3 .red {
+                background-color: lighten($red, $amount: 15%);}
+                .claro3 .blue{
+                    background-color: lighten($blue, $amount: 15%);
+                }
+                .claro3 .green{
+                    background-color: lighten($green, $amount: 15%);
+                }
+         .claro4 .red {
+                background-color: lighten($red, $amount: 20%);}
+                .claro4 .blue{
+                    background-color: lighten($blue, $amount: 20%);
+                }
+                .claro4 .green{
+                    background-color: lighten($green, $amount: 20%);
+                }
+}
+.red, .blue, .green {
+    height: 50px;
+    width: 50px;
+    margin: 4%;
+    margin: 3px;
+    color: white;
+}
+

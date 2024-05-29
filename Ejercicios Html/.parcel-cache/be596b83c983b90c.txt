@@ -1,0 +1,47 @@
+46
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (1).jpg133281830454259684 0
+53C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images133289005100392420 1
+55C:\Users\miran\OneDrive\Escritorio\GG\Sass\package.json133276984238885155 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (9).jpg133281830423295922 0
+60C:\Users\miran\OneDrive\Escritorio\GG\Sass\package-lock.json133277019456361298 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (19)-min.jpg133289004407278320 0
+47C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist133277022519121475 1
+50C:\Users\miran\OneDrive\Escritorio\GG\Sass\.vscode133287276963490660 1
+51C:\Users\miran\OneDrive\Escritorio\GG\Sass\index.js133289932470654781 0
+46C:\Users\miran\OneDrive\Escritorio\GG\Sass\src133289018472025362 1
+101C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (14).jpg133281830426464508 0
+59C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\colores.html133295122562747996 0
+59C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\colores.scss133295121694793720 0
+57C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\CV SEO.pdf133120231296770060 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (2).jpg133281830418941550 0
+63C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Logo1.jpg133287013774380202 0
+54C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git.css133289016843817858 0
+55C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git.html133289026573130063 0
+56C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git2.html133288801531452582 0
+56C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git3.html133289001261712467 0
+101C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (11).jpg133281830424468936 0
+56C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git4.html133289018185486860 0
+71C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist\colores.4e3e6656.js.map133277022518620517 0
+56C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\git5.html133289018732436769 0
+55C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\logo.png133281847488990308 0
+101C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (10).jpg133281830423868614 0
+64C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Flecha.jpg133286200241853526 0
+65C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Flecha2.jpg133286200525658871 0
+101C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (12).jpg133281830425103378 0
+101C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (13).jpg133281830425728673 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (15)-min.jpg133289004409174625 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (16)-min.jpg133289004409825715 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (17)-min.jpg133289004410301403 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (18)-min.jpg133289004410772390 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (20)-min.jpg133289004407874951 0
+105C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (21)-min.jpg133289004408548977 0
+60C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist\colores.html133277022519111529 0
+68C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist\colores.baa099aa.css133277022518561229 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (3).jpg133281830419605408 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (4).jpg133281830420193897 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (5).jpg133281830420817649 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (6).jpg133281830421386871 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (7).jpg133281830421878291 0
+100C:\Users\miran\OneDrive\Escritorio\GG\Sass\src\images\Manga Español Word El mito de Giralda (8).jpg133281830422499217 0
+67C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist\colores.4e3e6656.js133277022518543651 0
+72C:\Users\miran\OneDrive\Escritorio\GG\Sass\dist\colores.baa099aa.css.map133277022518620517 0

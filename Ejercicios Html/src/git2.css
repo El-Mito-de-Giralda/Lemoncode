@@ -1,0 +1,264 @@
+
+
+*{box-sizing: border-box;}
+
+html{
+background-color: aliceblue;}
+
+header{height: 100px;
+  margin: 10%;
+  }
+
+  
+.header2{height: 100px;
+ padding: 20%;
+  }
+
+  header img{
+    height: 140px;
+    width: 300px;
+    position:absolute;
+    margin: 10%;
+  }
+   
+  
+    a:link {
+      text-decoration: none;
+  
+    }
+  
+    a:visited {
+  text-decoration: none;
+    }
+  
+   header a{
+      color: black;
+      height: 150px;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+  header p{
+    font-size: 45px;
+    font-family: 'Dancing Script'; 
+  text-align: center;
+  position: relative;}
+
+
+.panel { 
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    text-align: center;
+  font-family: 'Dancing Script';}
+  
+
+iframe{
+    height: 80vh;
+    width: 100%;}
+
+.panel2 {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: large;
+  text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 5%;
+text-align: center;}
+
+  footer, footer p{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    display: flex;
+    align-content: end;
+  }
+
+  .obra {
+    width: 100%;
+    padding-bottom: 5%;
+
+  }
+
+  .text{  height: 80vh;
+    width: 100%;
+  
+  }
+
+  .oeuvre{
+    vertical-align: top;
+    height: 79vh;
+    width: 90%;
+    position: relative;
+  }
+
+  .flecha {
+    height: 70%;
+    width: 70%;
+
+  }
+
+  .flechas {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .flechas2 {
+    display: flex;
+    align-content: center;
+    justify-content:center;
+  }
+
+  .direccion{
+    height: 50px;
+    width: 100px;
+  }
+
+  flechas:hover{
+    cursor:pointer;
+  }
+
+  .flechas a img{
+    color: black;
+  margin: 0%;}
+
+  a:hover{
+    cursor:pointer;
+    opacity: 70%;
+  }
+
+
+  @media only screen and (min-width: 834px){
+    header{
+      height: 35vh;
+      max-height: 450px;
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-left: 0%;
+
+      }
+
+      h1 {
+        font-size: small;
+      }
+
+      header a{
+        color: black;
+        height: 250px;
+        width:600px;
+        margin: 0%;
+      }
+      
+      header img{
+        height: 300px;
+        width:600px;
+
+      }
+
+      header p{
+        font-size: 90px;
+        font-family: 'Dancing Script'; 
+      text-align:center;
+      position: relative;
+    margin:0%;
+    width:700px}
+      
+      
+        
+      .text{  height: 80vh;
+        width: 100%;
+        display:flex;
+        justify-content: center;
+      }
+    
+      .oeuvre{
+        vertical-align: top;
+        height: 80vh;
+        width: 60%;
+      }
+
+      .panel2 {
+       max-height:1000px ;
+        height: 100%;
+        width: 100%;
+        font-size: large;
+        text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-bottom: 5%;}
+
+      .flecha {
+        height: 90%;
+        width: 90%;
+    
+      }
+    
+      .flechas {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+      }
+
+      .flechas2 {
+        display: flex;
+        align-content: center;
+        justify-content:center;
+      }
+    
+      .direccion{
+        height: 60px;
+        width: 120px;
+      }
+    
+  }  
+
+  @media only screen and (min-width: 971px){
+    .panel2 p{
+      text-align:center;
+      }
+  }
+
+
+  @media only screen and (min-width: 971px){
+    .text{  height: 100vh;
+      width: 100%;
+      display:flex;
+      justify-content: center;
+    }
+  
+    .oeuvre{
+      vertical-align: top;
+      height: 100vh;
+      width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 1400px){
+    .text{  height: 100vh;
+      width: 100%;
+      display:flex;
+      justify-content: center;
+    }
+  
+    .oeuvre{
+      vertical-align: top;
+      height: 100vh;
+      width: 45%;
+    }
+    .panel2 {
+    padding-bottom: 0%;}
+
+  }
+
+ 
