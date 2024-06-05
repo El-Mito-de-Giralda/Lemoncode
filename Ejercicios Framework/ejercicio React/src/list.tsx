@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, generatePath } from "react-router-dom";
+import * as classes from './list.styles';
 
 
 interface MemberEntity {
@@ -36,31 +37,33 @@ React.useEffect(() => {
       return 
     }
 
-    
-
  
  return (
     <>
-      <h2>Hello from List page</h2> {" "}
+      <div className={classes.header}>
+      <h2>Hello from List page</h2> 
       <input type="text" onChange={(a)=>setorgs(a.target.value)}/>
-      <button onClick={botonOrg}></button>
+      <button className={classes.button} onClick={botonOrg}></button>
+      </div>
       
-
-
-      <div className="list-user-list-container">
+      <div>
         <span className="list-header">Avatar</span>
         <span className="list-header">Id</span>
         <span className="list-header">Name</span>
+        <ul className={classes.list}>
         {Array.isArray(members) && members.map((member)=>  (
-          <>
+          <li key={member.id}>
+            <Link to={`/detail/${member.login}`}>
             <img src={member.avatar_url} />
             <span>{member.id}</span>
-            <Link to={`/detail/${member.login}`}>{member.login}</Link>    
-          </>
+            {member.login}</Link>    
+            </li>
+          
         ) 
        
       
         )}
+         </ul>
       </div>
       <Link to="/detail">Navigate to detail page</Link>
     </>

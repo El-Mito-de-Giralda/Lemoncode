@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
+
 interface MemberDetailEntity {
   id: string;
   login: string;
   name: string;
   company: string;
   bio: string;
+  avatar_url: string;
 }
 
 const createDefaultMemberDetail = () => ({
@@ -15,6 +17,7 @@ const createDefaultMemberDetail = () => ({
   name: "",
   company: "",
   bio: "",
+  avatar_url: ""
 });
 
 const local =()=> {
@@ -26,10 +29,10 @@ export const DetailPage: React.FC = () => {
   const [member, setMember] = React.useState<MemberDetailEntity>(
     createDefaultMemberDetail()
   );
-  const { id } = useParams();
+  const {login}= useParams();
 
   React.useEffect(() => {
-    fetch(`https://api.github.com/users/${id}`)
+    fetch(`https://api.github.com/users/${login}`)
       .then((response) => response.json())
       .then((json) => setMember(json));
   }, []);
@@ -37,6 +40,7 @@ export const DetailPage: React.FC = () => {
   return (
     <>
       <h2>Hello from Detail page</h2>
+      <img src={member.avatar_url} />
       <p> id: {member.id}</p>
       <p> login: {member.login}</p>
       <p> name: {member.name}</p>

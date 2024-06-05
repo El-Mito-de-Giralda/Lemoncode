@@ -17,7 +17,7 @@ return(
      <Routes>
        <Route path="/" element={<LoginPage/>} />
        <Route path="/list" element={<ListPage/>} />
-       <Route path="/detail" element={<DetailPage/>} />
+       <Route path="/detail/:login" element={<DetailPage/>} />
      </Routes>
    </Router>
    </ThemeProvider>
