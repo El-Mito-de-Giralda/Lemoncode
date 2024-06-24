@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+.menu {
+    width: 100%;
+    min-width: 500px;
+    height: 15%;
+    min-height: 50px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.logout {
+    width: 70px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    margin: 30px;
+    background-color: beige;
+}
+
+.section {
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background-color:gainsboro;
+    border: solid black 2px;
+    text-align: center;
+}
+
+a {
+   text-decoration: none;
+   display: flex;
+}
+
+a:visited{
+    color: black;
+}

@@ -1,0 +1,27 @@
+<div class="topContainer">
+   
+    <div class="login">
+      <h1 appHighlight>HOLA</h1>
+
+            <form addform="ngForm">
+              <div>
+                  <label>Username </label>
+                  <input type="text" name="username" [(ngModel)]="loginservice.newUser.username" #username="ngModel" required/>
+                  <div *ngIf="username.invalid && username.touched">
+                    <div *ngIf="password.errors.required">El nombre es obligatorio</div>
+              </div>
+              <div>
+                  <label>Password</label>
+                  <input type="password" name="password" [(ngModel)]="loginservice.newUser.password" #password="ngModel" required minlength="7"/>
+                  <div *ngIf="password.invalid && password.touched">
+                    <div *ngIf="password.errors.required">El password es obligatorio</div>
+                    <div *ngIf="password.errors.minlength">El password debe tener {{ password.errors.minlength.requiredLength }} 
+                      caracteres mínimo. Tiene sólamente {{ password.errors.minlength.actualLength }}</div>
+                  </div>
+              </div>
+              
+              <button (click)="onlogin()">Entrar</button>
+         
+          </div>
+          
+

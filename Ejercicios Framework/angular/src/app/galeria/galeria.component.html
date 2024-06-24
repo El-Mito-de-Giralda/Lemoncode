@@ -1,0 +1,24 @@
+<p>galeria works!</p>
+<div class="container">
+  <div class="imagenbig">
+    <div class="grande"><img *ngIf="fotoPrincipal" [src]="fotoPrincipal" /></div>
+
+</div>
+<div class="mediano">
+  <div class="pequena" *ngFor="let item of galeria; let i= index">
+    <img [src]="item.ruta" (click)="Grande(i)" />
+  </div>
+  
+</div>
+<div class="mando">
+<button class="boton">Anterior</button>
+<button class="boton">Aumentar</button>
+<button class="boton">Disminuir</button>
+<button class="boton">Play</button>
+<button class="boton">Stop</button>
+<button class="boton">Siguiente</button>
+</div>
+
+</div>
+
+

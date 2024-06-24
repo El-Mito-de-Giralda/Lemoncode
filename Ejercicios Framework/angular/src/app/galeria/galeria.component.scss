@@ -1,0 +1,47 @@
+* {box-sizing: border-box;}
+
+html{
+    background-color: mediumblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagenbig {
+    display: flex;
+    justify-content: center;
+}
+
+.grande {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    padding: 10%;
+    margin: 30px;
+}
+
+.mediano {
+    display: flex;
+    justify-content: center;
+}
+
+.pequena {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    margin: 10px;
+    img {height: 60px;
+        width: 60px;
+
+    }
+}
+
+.boton {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.mando{
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,25 @@
+<div *ngIf="loginservice.Islogged===true; then private else public ">
+   </div>
+   <ng-template #public>
+<ul>
+      <div class="menu">
+      <a routerLink="/home"><div routerLinkActive="selected" class="section"><p>Home</p></div></a>
+      <a routerLink="/login"><div routerLinkActive="selected" class="section"><p>Login</p></div></a>
+      <a routerLink="/about"><div routerLinkActive="selected" class="section"><p>About</p></div></a>
+   </div>
+   </ul>
+</ng-template>
+   
+<ng-template #private>
+   <ul><div class="menu" >
+      <a routerLink="/dashboard"><div routerLinkActive="selected" class="section"><p>Dashboard</p></div></a>
+      <a routerLink="/galeria"><div routerLinkActive="selected" class="section"><p>Galería</p></div></a>
+      <a routerLink="/users"><div routerLinkActive="selected" class="section"><p>Users</p></div></a>
+      <a routerLink="/profile"><div routerLinkActive="selected" class="section"><p>Profile</p></div></a> 
+      </div>
+      </ul>
+      <div>{{this.loginservice.newUser.username}}</div>
+      <button class="logout" (click)="loginservice.logout()"> Log out</button>
+   </ng-template>
+
+   
